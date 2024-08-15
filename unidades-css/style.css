@@ -1,0 +1,63 @@
+/*1ª- px => em */
+
+
+/* /* .pai {                 
+    font-size: 16px;
+}
+
+.filho {
+    font-size: 2em;
+} */
+
+/* se o pai é 16px, 1em = 16px, 2em = 32px */
+/* Ou seja, o 'em' sempre faz referencia ao seu pai */
+
+
+
+
+
+
+/* 2ª- px => rem */
+
+/* 
+html {
+    font-size: 24px;
+}
+
+.pai {
+    font-size: 1rem;
+}
+
+.filho {
+    font-size: 1rem;
+} */
+
+
+/* A unidade 'rem' é uma sucessora da 'em', ela faz referência sempre
+ao elemento 'root' (html) */
+
+
+
+
+
+
+/* 3ª- px => % */
+
+
+/* body,
+html {
+    width: 100px;
+    height: 100%;
+}
+
+
+.container {
+    width: 100px;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.filho {
+    width: 100%;
+    background-color: black;
+} */
